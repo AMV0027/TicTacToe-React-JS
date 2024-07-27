@@ -88,7 +88,7 @@ function TicTacToe() {
                     <p>Player Score O : {yscore}</p>
                 </div>
             </nav>
-            <h1 className='text-xl font-semibold mt-20' ref={titleRef}>
+            <h1 className='text-xl font-semibold mt-20 text-center w-52' ref={titleRef}>
                 2-Player Tic Tac Toe Game using <span className='text-blue-400'>React JS</span>
             </h1>
             <div className='flex flex-col justify-center mt-6' id='container'>
